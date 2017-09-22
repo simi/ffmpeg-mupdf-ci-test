@@ -1,0 +1,13 @@
+language: ruby
+sudo: false
+
+addons:
+  apt:
+    sources:
+      - sourceline: 'ppa:mc3man/trusty-media'
+    packages:
+      - ffmpeg
+      - mupdf
+script:
+  - ffmpeg
+  - mupdf
